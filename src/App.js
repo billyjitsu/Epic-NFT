@@ -5,11 +5,11 @@ import React, { useEffect, useState } from "react";
 import myEpicNft from './utils/MyEpicNFT.json'
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'wc49358';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
-const CONTRACT_ADDRESS = "0x8176BC99C7e50617f9A89dAE1288e6a7e7732D2c";
+const CONTRACT_ADDRESS = "0xbD0AFf2785a5B752B421459aD6eDf13632d509De";
 
 const App = () => {
 
@@ -175,7 +175,7 @@ const App = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`built with the support of BuildSpace`}</a>
         </div>
       </div>
     </div>
