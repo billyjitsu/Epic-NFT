@@ -7,7 +7,7 @@ import myEpicNft from './utils/MyEpicNFT.json'
 // Constants
 const TWITTER_HANDLE = 'wc49358';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const OPENSEA_LINK = '';
+const OPENSEA_LINK = 'https://testnets.opensea.io/collection/squarenft-ivggwbsiec';
 const TOTAL_MINT_COUNT = 50;
 const CONTRACT_ADDRESS = "0xbD0AFf2785a5B752B421459aD6eDf13632d509De";
 
@@ -167,6 +167,15 @@ const App = () => {
             You send in Eth, you get back something random.
           </p>
           {currentAccount === "" ? renderNotConnectedContainer() : renderMintUI()}
+        </div>
+        <div>
+          <p className="sub-text">
+          <a
+      
+            href={OPENSEA_LINK}
+            target="_blank"
+            rel="noreferrer"
+          >{`🌊 View Collection on OpenSea`}</a></p>
         </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
